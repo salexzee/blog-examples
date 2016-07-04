@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+  width: 100%;
+  margin: 0;
+}
+
+#parallax {
+  height: 500px;
+  position: relative;
+  background: white;
+  background-size: cover;
+  background-image: url('/assets/parallax/images/misty_mountain.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0% 0%;
+  margin-bottom: 30px;
+}
+
+#parallax h1 {
+  font-size: 90px;
+  margin: -90px 0 0 0;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  color: steelblue;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 20px;
+}
